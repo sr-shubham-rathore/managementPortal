@@ -1,4 +1,5 @@
-﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
   <Import Project="..\packages\Microsoft.Net.Compilers.2.4.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.2.4.0\build\Microsoft.Net.Compilers.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
@@ -92,6 +93,24 @@
     <Content Include="Global.asax" />
     <Content Include="hello.aspx" />
     <Content Include="HtmlPage.html" />
+    <Content Include="imagesNew\accent.png" />
+    <Content Include="imagesNew\bullet.png" />
+    <Content Include="imagesNew\heroAccent.png" />
+    <Content Include="imagesNew\orderedList0.png" />
+    <Content Include="imagesNew\orderedList1.png" />
+    <Content Include="imagesNew\orderedList2.png" />
+    <Content Include="imagesNew\orderedList3.png" />
+    <Content Include="imagesNew\orderedList4.png" />
+    <Content Include="imagesNew\orderedList5.png" />
+    <Content Include="imagesNew\orderedList6.png" />
+    <Content Include="imagesNew\orderedList7.png" />
+    <Content Include="imagesNew\orderedList8.png" />
+    <Content Include="imagesNew\orderedList9.png" />
+    <Content Include="imagesNew\pexels-photo-126590.jpeg" />
+    <Content Include="imagesNew\pexels-photo-273222.jpeg" />
+    <Content Include="imagesNew\pexels-photo-746421.jpeg" />
+    <Content Include="imagesNew\pexels-photo-908286.jpeg" />
+    <Content Include="imagesNew\pexels-photo.jpg" />
     <Content Include="j.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
